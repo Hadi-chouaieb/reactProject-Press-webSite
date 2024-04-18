@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+    .col-phone {
+        width: 20%;
+    }
+}
+
+.col-phone {
+    width: 100%;
+}
+
+.text-last {
+    font-size: 35px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.timer {
+    font-size: 30px;
+}
+.cardAdhan{
+    background-color: var(--green5grees) !important;
+}

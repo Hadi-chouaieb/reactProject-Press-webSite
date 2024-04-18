@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+#the const [value , setValue]  = useState("init value")
+# the edia of use state is update value by steValue
+# ----
+# useEffect(()=>{},[])
+# a = 1
+#useEffect(()=>{
+# consloe.log("updated")},[a])
+# the use effect excute console.log while the a is modifyed 

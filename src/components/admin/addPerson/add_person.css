@@ -1,0 +1,16 @@
+.form-check-input.custom-color:checked {
+    background-color: #ff0000 !important; /* Blue color */
+    border-color: #ff0000 !important; /* Blue color */
+  }
+  .form-check-input.custom-color:hover {
+    cursor: pointer;
+  }
+  /* Change the color of the form-check input when it's focused */
+  .form-check-input.custom-color:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 8, 0, 0) !important; /* Blue color */
+  }
+
+  /* Change the color of the checkmark inside the form-check input */
+  .form-check-input.custom-color:checked ~ .form-check-label::before {
+    background-color: #ff0000 !important; /* Blue color */
+  }

@@ -1,0 +1,26 @@
+/* .navbar-nav .ml-auto {
+    flex-direction: row-reverse !important;
+  }
+  */
+
+
+/* .navbar {
+  background-color: #191a1b; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  height: 80Px;
+  max-height: 100px;
+}
+*/
+.navbar-brand > img {
+  height:80px;
+
+}
+/*
+.nav-link {
+  color: #fff;
+  margin-right: 20px; 
+}
+
+.nav-link:hover {
+  color: #026d0b;
+} */

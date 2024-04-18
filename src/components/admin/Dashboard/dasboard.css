@@ -1,0 +1,46 @@
+
+.card {
+    height: 100%;
+
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sidebar-menu li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.sidebar-menu li span {
+    cursor: pointer;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu li span:hover {
+    background-color: #555;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 1s ease;
+}
+.sidebar-menu li span:hover > * {
+   
+    color: rgb(9, 163, 78);
+    transition:all 1s;
+}
+
+
+.content {
+    height: 100%;
+
+    padding: 20px;
+}

@@ -1,0 +1,15 @@
+.covert{
+    height:620px;
+    overflow-x: hidden !important;
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    
+}
+.text-new{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}

@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .header-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .page-content {
+    padding: 20px;
+  }
+  
+  .page-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .page-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .page-content p:first-child {
+    margin-top: 0;
+  }
+  
+  .page-content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  .context{
+    text-align: justify !important;
+  }
+  .btn-more {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+.share-content a > *:hover {
+
+  color: rgb(12, 221, 12) !important;
+
+}
+
+
+.share-content{
+
+  position: absolute !important;
+  transition: 0.5s ease-in;
+  height: 50px;
+  top: 100%;
+
+}
+
