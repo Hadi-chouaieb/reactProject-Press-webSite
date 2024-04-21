@@ -4,17 +4,16 @@
   */
 
 
-/* .navbar {
-  background-color: #191a1b; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+.navbar {
+
   height: 80Px;
-  max-height: 100px;
-}
-*/
-.navbar-brand > img {
-  height:80px;
 
 }
+
+/* .navbar-brand > img {
+  height:80px;
+
+} */
 /*
 .nav-link {
   color: #fff;

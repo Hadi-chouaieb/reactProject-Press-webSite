@@ -1,5 +1,5 @@
 /* styles.css */
-
+.card{border: none !important;}
 .card-jornal {
     height:600px;
     overflow: hidden;
