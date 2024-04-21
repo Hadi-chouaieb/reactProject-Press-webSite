@@ -30,7 +30,7 @@ const Dashboard = (props) => {
   return (
     <div className="" dir='rtl'>
       <div className="container-fuild">
-        <div className="col-12 card bg-dark">
+        <div className="col-12 card bg-dark-first">
           <div className=''>
             <div className="logo">
              {props.user.username}

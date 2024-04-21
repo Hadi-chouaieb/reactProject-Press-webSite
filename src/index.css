@@ -1,42 +1,56 @@
-:root{
-    --greens:#28262c;
-    --green2grees:#525f68;
-    --green3grees:#424350;
-    --green4grees:#2b2c36;
-    --green5grees:#aecac9;
+:root {
+    --first: #0e2022;
+    --second: #093b3f;
+    --third: #6f2c2d;
+    --forth: #4b161a;
+    --fif: #77888a;
 }
 
 ::-webkit-scrollbar {
-    width: 0px; /* width of the scrollbar */
+    width: 0px;
+    /* width of the scrollbar */
 }
 
 /* Targeting the scrollbar handle (thumb) */
 ::-webkit-scrollbar-thumb {
-    background-color: #cecece69; /* color of the scrollbar handle */
-    border-radius: 10px; /* roundness of the scrollbar handle */
+    background-color: #cecece69;
+    /* color of the scrollbar handle */
+    border-radius: 10px;
+    /* roundness of the scrollbar handle */
 }
 
 /* Optional: Styles for the scrollbar track (background) */
 ::-webkit-scrollbar-track {
-    background-color: #f1f1f100; /* color of the scrollbar track */
+    background-color: #f1f1f100;
+    /* color of the scrollbar track */
 }
 
 
 
-.share{
-    width:90%;
+.share {
+    width: 90%;
     height: 50px;
 }
 
-*{
-    
+* {
+
     font-family: 'Readex Pro', sans-serif;
 }
-.bg-dark{
-    background-color:var(--greens) !important;
+
+.bg-dark-first {
+    background-color: var(--first) !important;
 
 }
-body{
+.bg-dark-second {
+    background-color: var(--second) !important;
+
+}
+.bg-dark-third {
+    background-color: var(--third) !important;
+
+}
+
+body {
     background-color: var(--green3grees) !important;
-    color: var(--green5grees)	;
+    color: var(--green5grees);
 }

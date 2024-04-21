@@ -63,20 +63,16 @@ const More = () => {
         <>
             {foundPost ? (
                 <div>
-
-                    <div key={foundPost.code} className=" container-fluid card mt-1" dir="rtl">
-                        <span className="btn text-start mt-0 mb-0" onClick={goback}><IoArrowBackCircle size={30} /></span>
-
-                        <div className="header-image">
-                            <img src={"http://localhost:5000/images/" + foundPost.image} alt="Header Image" className="col-12" />
+                    <div key={foundPost.code} className=" container card mt-1" dir="rtl">
+                        <div dir="ltr"><span className="btn text-start mt-0 mb-0 col-1 " onClick={goback}><IoArrowBackCircle size={30} /></span></div>
+                        <div className="header-image text-center" >
+                            <img src={"http://192.168.137.1:5000/images/" + foundPost.image} alt="Header Image" className="col-12" />
                         </div>
                         <div className="container-fuild card-body">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="page-content">
                                         <h2>{foundPost.title}</h2>
-
-
                                         <div className="row">
                                         <div className='col-6'>
                                             <span className='col-12 m-1'>

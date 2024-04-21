@@ -10,6 +10,7 @@ const JornalCard = (props) => {
     var date = datetime.split('T')[0];
     var time = datetime.split('T')[1];
     return (
+
         <div className="col-md-6 col-lg-6 col-sm-12 mb-5" key={props.keys}>
             <div className="card card-jornal m-3">
                 <div className="imgcard">

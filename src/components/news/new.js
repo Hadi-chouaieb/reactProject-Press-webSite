@@ -20,10 +20,10 @@ const News = () => {
 
     }, [posts]);
     return (
-        <div className="container-fuild ">
-            <div className="row">
+        <div className="container-fluid">
+            <div className="row bg-dark-forth">
                 {posts.map(post => (
-                    <JornalCard key={post.code} title={post.title} creator={post.auther} date={post.date} url={'http://localhost:5000/images/' + post.image} text={post.context} photographer={post.photographer} />
+                    <JornalCard key={post.code} title={post.title} creator={post.auther} date={post.date} url={'http://192.168.137.1:5000/images/' + post.image} text={post.context} photographer={post.photographer} />
                 ))}
             </div>
         </div>

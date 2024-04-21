@@ -9,7 +9,7 @@ function Lastpost() {
     const text = "قيس سعيد يوقع اتفاقية مع الغرب"
 
     return (
-        <div className='covert bg-dark covert' style={{ height: windowHeight }}>
+        <div className='covert bg-dark-first covert' style={{ height: windowHeight }}>
         <Adhan last={text}/>
         </div>
     );

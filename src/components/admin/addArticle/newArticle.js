@@ -66,8 +66,8 @@ const NewArticle = () => {
 
     return (
 
-        <div className="card mt-0 bg-dark" dir='rtl'>
-            <div className="card-body bg-dark text-light">
+        <div className="card mt-0 bg-dark-first" dir='rtl'>
+            <div className="card-body bg-dark-first text-light">
                 <h5 className="card-title text-light">مقالة جديد </h5>
 
                 <div className="form-group">
